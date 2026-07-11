@@ -1,4 +1,4 @@
-# @hood/mcp — Hood Domains MCP server
+# hooddomains-mcp — Hood Domains MCP server
 
 An [MCP](https://modelcontextprotocol.io) server that gives AI agents `.hood` name tools on
 Robinhood Chain.
@@ -24,9 +24,9 @@ requires you to supply a funded key.
 ```jsonc
 {
   "mcpServers": {
-    "hood-domains": {
+    "hooddomains": {
       "command": "npx",
-      "args": ["-y", "@hood/mcp"],
+      "args": ["-y", "hooddomains-mcp"],
       "env": {
         "HOOD_RPC_URL": "https://robinhood-mainnet.g.alchemy.com/v2/YOUR_KEY"
       }

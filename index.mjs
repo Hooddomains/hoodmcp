@@ -109,7 +109,7 @@ async function resolverOf(label) {
   return r && r.toLowerCase() !== ZERO ? r : null;
 }
 
-const server = new McpServer({ name: "hood-domains", version: "0.1.0" });
+const server = new McpServer({ name: "hooddomains", version: "0.1.0" });
 
 server.tool(
   "resolve_name",
@@ -340,4 +340,4 @@ server.tool(
 
 const transport = new StdioServerTransport();
 await server.connect(transport);
-console.error(`hood-domains MCP server ready (RPC ${new URL(RPC).host})`);
+console.error(`hooddomains MCP server ready (RPC ${new URL(RPC).host})`);
