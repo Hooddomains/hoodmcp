@@ -1,6 +1,6 @@
 {
   "name": "hooddomains-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for Hood Domains — resolve, look up, and register .hood names on Robinhood Chain. All on-chain, no backend.",
   "type": "module",
   "bin": {
