@@ -1,0 +1,30 @@
+{
+  "name": "@hood/mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Hood Domains — resolve, look up, and register .hood names on Robinhood Chain. All on-chain, no backend.",
+  "type": "module",
+  "bin": {
+    "hood-mcp": "index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "hood",
+    "ens",
+    "robinhood-chain",
+    "web3",
+    "domains"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "viem": "^2.21.0",
+    "zod": "^3.23.8"
+  }
+}
