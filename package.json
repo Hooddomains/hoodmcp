@@ -22,6 +22,15 @@
     "domains"
   ],
   "license": "MIT",
+  "author": "Hood Domains (https://www.hood.domains)",
+  "homepage": "https://www.hood.domains",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hooddomains/mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hooddomains/mcp/issues"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",
     "viem": "^2.21.0",

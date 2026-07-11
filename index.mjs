@@ -5,6 +5,9 @@
  * Exposes .hood name tools to any MCP client (Claude Desktop, etc.). There is no Hood backend:
  * this process talks directly to a Robinhood Chain RPC and reads/writes the on-chain contracts.
  *
+ *   Website: https://www.hood.domains  ·  App: https://app.hood.domains
+ *   Docs:    https://app.hood.domains/docs  ·  X: https://x.com/hooddomains (@hooddomains)
+ *
  *   Read tools work out of the box.
  *   register_name is a WRITE and requires HOOD_PRIVATE_KEY (a funded Robinhood Chain key).
  *

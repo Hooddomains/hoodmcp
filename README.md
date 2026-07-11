@@ -3,6 +3,8 @@
 An [MCP](https://modelcontextprotocol.io) server that gives AI agents `.hood` name tools on
 Robinhood Chain.
 
+**Hood Domains** · [www.hood.domains](https://www.hood.domains) · [app](https://app.hood.domains) · [docs](https://app.hood.domains/docs) · [X @hooddomains](https://x.com/hooddomains)
+
 **There is no backend to host.** This server runs on the agent's machine and talks directly to
 a Robinhood Chain RPC + the on-chain contracts. Read tools work out of the box; registration
 requires you to supply a funded key.
