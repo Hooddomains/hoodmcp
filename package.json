@@ -26,10 +26,10 @@
   "homepage": "https://www.hood.domains",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hooddomains/mcp.git"
+    "url": "git+https://github.com/Hooddomains/hoodmcp.git"
   },
   "bugs": {
-    "url": "https://github.com/Hooddomains/mcp/issues"
+    "url": "https://github.com/Hooddomains/hoodmcp/issues"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",
