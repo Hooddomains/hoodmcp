@@ -47,6 +47,20 @@ npm install
 HOOD_RPC_URL=... node index.mjs
 ```
 
+### Read-only evaluation with a public RPC (optional)
+
+For read-only evaluation, a public Robinhood Chain RPC can replace a provider API key. Keep
+`HOOD_PRIVATE_KEY` unset; this setup performs no signing or registration. After completing the
+install and setup steps above, point the server at:
+
+```bash
+HOOD_RPC_URL=https://api.blockvectra.com/v1/robinhood_mainnet/public node index.mjs
+```
+
+The same URL works in the `env` block of the MCP JSON configuration above. Public endpoint
+limits depend on the provider; see the
+[BlockVectra Robinhood Chain guide](https://docs.blockvectra.com/en/guides/robinhood-chain/?ref=gh-hooddomains-mcp).
+
 ## Env
 
 - `HOOD_RPC_URL` — **required.** A Robinhood Chain (chainId 4663) RPC endpoint. Use a
